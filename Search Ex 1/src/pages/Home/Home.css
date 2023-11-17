@@ -1,0 +1,30 @@
+.recipeWrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin: 2rem 0 0 0;
+}
+
+.recipeBox {
+  flex-basis: 300px;
+  height: 16rem;
+  text-align: center;
+  padding: 0 1rem;
+  border: 1px solid green;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.recipeBox a {
+  padding: 12px 6px;
+  cursor: pointer;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  text-decoration: none;
+}

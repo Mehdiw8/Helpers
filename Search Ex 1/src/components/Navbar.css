@@ -1,0 +1,42 @@
+nav {
+  height: 12rem;
+  background-color: rgb(0, 129, 0);
+  color: #fff;
+}
+.headWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 80rem;
+  height: 100%;
+  width: 85%;
+}
+.headWrapper h1 {
+  font-size: 3rem;
+}
+.makeR {
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  border: none;
+  transition: ease-in-out 0.2s;
+  background-color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.makeR:hover {
+  color: #fff;
+  background-color: black;
+}
+nav{
+  position: relative;
+}
+.home{
+  position: absolute;
+  top: 0;
+}
